@@ -1,75 +1,228 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="StyleSheet" href="./css/style.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <title>Bất Động sản Sunsine</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Scipt|Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
-
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
+    <header id="banner">
+    <section id="banner_123">
+        <img src="images/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Bất Động Sản Sunsine</h1>
+            <p>Sàn giao dịch BĐS hàng đầu Việt Nam</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>Sản phẩm</a>
+                <a href="#"><span></span>Khách hàng</a>
+            </div>
+        </div>
     </header>
+    </section>
+<div id="sideNav">
     <nav>
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
-                <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
-                </div>
-            </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li><a href="#banner">Trang chủ</a></li>
+            <li><a href="#feature">Ưu đãi của hành khách</a></li>
+            <li><a href="#service">Dịch vụ</a></li>
+            <li><a href="#testimonial">Đánh giá</a></li>
+            <li><a href="#footer">Liên hệ </a></li>
+            <li><a href="#Note">Đường dẫn nhanh</a></li>
         </ul>
     </nav>
+</div>
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>  
 
-    <section id="home" class="hideable-section">
-        <div>Home content</div>
-    </section>
+<section id="feature">
+    <div class="title-text">
+        <p>Trải nghiệm là ưu tiên hàng đầu của chúng tôi.</p>
+        <h1>Sự hài lòng khách hàng là tốt nhất.</h1>
+    </div>
+    <div class="feature-box">/
+        <div class="feature">
+            <h1>Giá cả phải chăng</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-shield"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Mua bán với tiêu chí: "sự hài lòng của các bạn là niềm vui của chúng tôi".</p>
+                </div>
+            </div>
+            <!----------------------------->
+            <h1>An toàn tuyệt đối</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-check-square-o"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Tất cả mọi sản phẩm đều có giấy tờ và bảo hiểm đầy đủ phục vụ đủ lợi ích của khách hàng.</p>
+                </div>
+            </div>
+            <!----------------------->
+            <h1>Dịch vụ 5 sao</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-inr"></i>
+                </div>
+                <div class="feature-text">
+                    <p>Tất cả nhân viên tư vấn đều là người có kinh nghiệm và rèn luyện chuyên sâu sẽ đem đến cho bạn những tư vấn chuyên nghiệp nhất.</p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-img">
+            <img src="images/hand.jpg" style="width:1060px;height:450px;">
+        </div>
+    </div>
+</section>
+<!----------------------------->
+<section id="service">
+    <div class="title-text">
+        <p>DỊCH VỤ</p>
+        <h1>Những dịch vụ chúng tôi đang triển khai:</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="images/1.jpg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Mua nhà</h3>
+                <hr>
+                <p>Nơi các chủ nhà rao bán nhà của mình , được nhân viên tư vấn về thị trường và định giá một cách hợp lí nhất.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/2.jpg" style="width:510px;height:340px;">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Bán nhà</h3>
+                <hr>
+                <p>Dựa theo nhu cầu và tình hình thị trường, chúng tôi đưa ra các sản phẩm với giá cả hợp lí nhất đến với khách hàng.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/4.png"style="width:510px;height:340px;">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Thuê nhà</h3>
+                <hr>
+                <p>Với những khách hàng chưa có khả năng hoặc nhu cầu mua, những ngôi nhà thuê sẽ là sự lựa chọn hợp lí.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/3.png"style="width:510px;height:340px;">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Môi giới</h3>
+                <hr>
+                <p>Với đội ngũ nhân viên có kinh nghiệm và trình độ cao , chủ nhà hoàn toàn có thể yên tâm.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
-    </section>
 
-    <section id="about" class="hideable-section">
-        <div>About content</div>
-    </section>
+<!------------------>
 
-    <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
-    </section>
+<section id="testimonial">
+    <div class="title-text">
+        <p>Đánh giá</p>
+        <h1>Khách hành nói gì về chúng tôi</h1>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/5.jpg">
+                <div class="user-info">
+                    <h4>Đoàn Mai Hương <i class="fa fa-twitter"></i></h4>
+                    <small>HuongMai1409A@gmail.com</small>
+                </div>
+            </div>
+            <p>Gặp được anh nhân viên vui tính mà lại con chuyên nghiệp : <3.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/6.jpg">
+                <div class="user-info">
+                    <h4>Hồ Huy Hiếu <i class="fa fa-twitter"></i></h4>
+                    <small>hieu223@gmail.com</small>
+                </div>
+            </div>
+            <p>Tư vấn chuyên nghiệp, nhà cửa khi mua đầy đủ giấy tờ và còn có cả bảo hiểm . đánh giá 5* luôn nè.</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/7.jpg">
+                <div class="user-info">
+                    <h4>Ngô Văn Hoàng <i class="fa fa-twitter"></i></h4>
+                    <small>hoanghhh@gmail.com</small>
+                </div>
+            </div>
+            <p>Nhân viên tư vấn nhiệt tình quá</p>
+        </div>
+    </div>
+</section>
+<!------------------------->
 
-    <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
-    </section>
 
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
-    </section>
+<footer class id="footer">
+    <section class id="footer_123">
+        <img src="image/banner.jpg" class="footer-img">
+        <div class="title-text">
+            <p>Liên hệ: </p>
+            <h1>Công ti Bất động sản sunsine</h1>
+        </div>
+    <div class="footer-row">
+    <div class="footer-left">
+            <h1>Giờ làm việc</h1>
+            <p><i class="fa fa-clock-o"></i>Thứ 2 đến thứ 7 : 9giờ - 18giờ</p>
+            <p><i class="fa fa-clock-o"></i>Hotline: 0123456789 </p>
+            <p><i class="fa fa-clock-o"></i>Đại diện pháp lý: Đỗ Trung Tuấn -Giám Đốc Điều Hành</p>
+        </div>
+        <div class="footer-right">
+            <h1>Địa chỉ liên lạc:</h1>
+            <p>Số 18 bạch mai,Hà Nội city,Viet Nam courtry <i class="fa fa-map-marker"></i></p>
+            <p>Sunsine_company@gmai.com <i class ="fa fa-paper-plane"></i></p>
+            <p>0125343589<i class="fa fa-phone"></i></p>
+        </div>
+    </div>
+</footer>
 
-    <script>
-        $(function() {
-            $('nav ul li a').click(function() {
-                // Lấy section để hiển thị
-                var $section = $('#' + $(this).data('section'));
+<div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube"></i>
+        <p>Copyright Ha Noi University of Mining and Geology. </p>
+</div>
+</section>
 
-                // Nếu đang hiện thì không làm gì.
-                // Nếu không, ẩn tất cả các se cho hiện (kiểu fade in) phần mong muốn.
-                if (!$section.is(':visible')) {
-                    $('.hideable-section').hide();
-                    $section.fadeIn();
-                }
-            });
-        });
-    </script>
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sideNav = document.getElementById("sideNav")
+var menu = document.getElementById("menu")
+
+menuBtn.onclick = function(){
+    if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "images/close.png";
+    }
+    else{
+        sideNav.style.right = "-250px";
+        menu.src = "images/menu.png";
+    }
+}
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
 </body>
-
 </html>
